@@ -1,0 +1,33 @@
+{
+    "author": "MakeAwesomeHappen",
+    "dependencies": {},
+    "keywords": [
+        "pebble-app"
+    ],
+    "name": "watchface-tutorial",
+    "pebble": {
+        "displayName": "Tutorial Watchface",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "data/frame_000.pdc",
+                    "name": "FRAME_000",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "emery"
+        ],
+        "uuid": "c8e858de-0828-4b02-bc8c-5a99cab8c2a9",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
